@@ -10,12 +10,13 @@
 	  ],
 	  "static_path": "./public"
   },
+  "kafka": {
+    "server": "localhost:2181",
+    "topic": "test-stream"
+  },
   "datastore" : {
-	  "active" : "nedb",
-	  "nedb" : {
-	    "directory": "./data",
-	    "inMemoryOnly" : true,
-	    "autoload": false
+	  "active" : "none",
+	  "none" : {
 	  }
   },
   "security" : {
