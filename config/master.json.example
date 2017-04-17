@@ -11,7 +11,7 @@
 	  "static_path": "./public"
   },
   "kafka": {
-    "server": "localhost:2181",
+    "server": "127.0.0.1:2181",
     "topic": "test-stream"
   },
   "datastore" : {
